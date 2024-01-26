@@ -1,5 +1,7 @@
 const loginDetails = [
-  { email: "Sagar@pw", password: "S12435pw" },
+  { email: "Sagar@pw",
+   password: "S12435pw",
+  },
   {
     email: "Yogesh@pw",
     password: "Y252435pw",
