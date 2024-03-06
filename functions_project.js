@@ -19,13 +19,13 @@ function login_page(userEmail, userPassword) {
   );
 
   //Condition 2 Email matched but Password doesn't match
-  const conditionNotmatchWithPasswprd = loginDetails.find(
+  const conditionNotmatchWithPassword = loginDetails.find(
     (u) => u.email === userEmail && u.password !== userPassword
   );
 
   if (conditionmatch) {
     return `Login Successfull`;
-  } else if (conditionNotmatchWithPasswprd) {
+  } else if (conditionNotmatchWithPassword) {
     return `Password Not match`;
   } else {
     return `login failed`;
